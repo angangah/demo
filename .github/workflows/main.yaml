@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2  # Esegui il checkout della repository
+        uses: actions/checkout@v4  # Esegui il checkout della repository
 
       - name: Set up JDK
         uses: actions/setup-java@v4
