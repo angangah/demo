@@ -19,7 +19,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
-          java-version: '18'  # Imposta la versione di Java
+          java-version: '11'  # Imposta la versione di Java
 
       - name: Build with Maven
         run: mvn clean install  # Esegui il comando per la build del progetto con Maven
